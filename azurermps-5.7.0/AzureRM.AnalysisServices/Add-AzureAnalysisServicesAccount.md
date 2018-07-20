@@ -67,7 +67,7 @@ This example will add the application service principal account specified by the
 The application ID.
 
 ```yaml
-Type: String
+Type: System.String
 Parameter Sets: ServicePrincipalWithCertificateParameterSetName
 Aliases: 
 
@@ -97,7 +97,7 @@ Accept wildcard characters: False
 Login credentials
 
 ```yaml
-Type: PSCredential
+Type: Microsoft.Azure.Commands.AnalysisServices.Dataplane.AsAzureProfile
 Parameter Sets: UserParameterSetName
 Aliases: 
 
